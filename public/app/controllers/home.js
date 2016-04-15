@@ -4,9 +4,10 @@
 angular.module('ssApp.controllers')
   .controller('homeController', function($scope, $routeParams, $location, $route) {
     $scope.cities = [
-        {'class': 'la', 'name': 'Periodistas', 'endpoint' :'la'},
-        {'class': 'ba', 'name': 'Developers', 'endpoint' :'ba'},
-        {'class': 'ny', 'name': 'Izquierda', 'endpoint' :'nyc'},
-        {'class': 'au', 'name': 'Derecha', 'endpoint' :'atx' }
+        {'class': 'ny', 'name': 'Stark', 'endpoint' :'nyc'},
+        {'class': 'au', 'name': 'Tyrell', 'endpoint' :'atx' },
+        {'class': 'la', 'name': 'Targaryien', 'endpoint' :'la'},
+        {'class': 'ba', 'name': 'Lannister', 'endpoint' :'ba'},
+        {'class': 'sy', 'name': 'Baratheon', 'endpoint' :'syd' }
       ];
  });

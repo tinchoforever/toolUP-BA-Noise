@@ -7,10 +7,11 @@ angular.module('ssApp.controllers')
     var serverName = $location.protocol() + "://" + $location.host() + ":" + $location.port();
   	var socket = io(serverName);
     var citymap = {};
-    citymap['ny'] = 'Izquierda';
-    citymap['au'] = 'Derecha';
-    citymap['ba'] = 'Developers';
-    citymap['la'] = 'Periodistas';
+    citymap['ny'] = 'Stark';
+    citymap['au'] = 'Tyrell';
+    citymap['la'] = 'Targaryien';
+    citymap['ba'] = 'Lannister';
+    citymap['sy'] = 'Baratheon';
 
     $scope.name = citymap[$routeParams.city];
 
